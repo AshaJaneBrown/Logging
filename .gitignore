@@ -1,5 +1,5 @@
-.idea
-lib
-logs
-target
+.idea/
+lib/
+logs/
+target/
 Logging.iml
