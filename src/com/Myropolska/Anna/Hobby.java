@@ -1,6 +1,6 @@
 package Myropolska.Anna;
 
-public class Hobby {
+abstract public class Hobby {
     private byte byteValue;
     private char charValue;
     private int intValue;
@@ -119,11 +119,12 @@ public class Hobby {
 
     @Override
     public String toString() {
-        return (this.getClass().getSimpleName());
+        return ("Hobby");
     }
 
-    public void tellAboutHobby(){
-        System.out.println(this.toString() + ": " + this.name);
-    }
+    abstract public void tellAboutHobby();
+
+        //System.out.println(this.toString() + ": " + this.name);
+
 
 }
